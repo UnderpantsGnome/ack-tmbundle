@@ -25,7 +25,7 @@ class AckInProject::SearchResults
 
     puts <<-HTML
       </table>
-      <script type="text/javascript">searchCompleted();</script>
+      <script type="text/javascript">searchCompleted();resizeTableToFit();</script>
     HTML
     html_footer
   end

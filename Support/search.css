@@ -1,4 +1,4 @@
-table { font-size:0.9em; border-collapse:collapse; border-bottom:1px solid #555; }
+table { font-size:0.9em; border-collapse:collapse; border-bottom:1px solid #555; width:100%; }
 h2 { font-size:1.3em; margin-bottom: 0.25em;}
 div#counters {margin-bottom: 1.5em;}
 tr { background:#FFF; }
@@ -9,7 +9,7 @@ tbody.matches a:hover { background-color:#C4E2FF; }
 th {background-color: rgb(234,234,234); padding: 0.5em;}
 tr.context td:first-child, tr.content td:first-child {width: 1em; text-align: right; padding: 0.25em 0.5em; font-family: courier ! important; background-color: rgb(234,234,234);}
 tr.break td:first-child { background:#FFF;}
-pre { margin:0px; padding: 0px; }
+pre { margin:0px; padding: 0px; white-space:nowrap;}
 td { vertical-align:top; white-space:nowrap; }
 tr.content td, tr.content th { color: #000; font-weight: 500;}
 tr.context td, tr.context { color: #666; font-weight: 100;}
